@@ -1,0 +1,30 @@
+.popup-wrapper {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .6);
+  align-items: flex-start;
+  justify-content: center;
+  overflow-y: auto;
+  padding: 30px 0;
+  &.show {
+
+  }
+  > div {
+    width: 100%;
+    max-width: 400px;
+    min-height: 200px;
+    background: #fff;
+    border-radius: 10px;
+    .close {
+      margin-right: 5px;
+      outline: none;
+    }
+    .popup-body {
+      padding: 15px;
+    }
+  }
+}

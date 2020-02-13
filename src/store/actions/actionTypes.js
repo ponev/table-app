@@ -1,0 +1,16 @@
+export const FETCH_DATA_LOADING = 'FETCH_DATA_LOADING'
+export const FETCH_DATA = 'FETCH_DATA'
+export const FETCH_WORKING_DATA = 'FETCH_WORKING_DATA'
+export const FETCH_ERROR = 'FETCH_ERROR'
+
+export const SET_DATA_VOLUME = 'SET_DATA_VOLUME'
+export const SET_SORTING = 'SET_SORTING'
+
+export const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE'
+export const SET_PAGE_LIMIT = 'SET_PAGE_LIMIT'
+
+export const SET_ITEM_DATA = 'SET_ITEM_DATA'
+export const CLEAR_ITEM_DATA = 'CLEAR_ITEM_DATA'
+
+export const SET_SEARCH_STR = 'SET_SEARCH_STR'
+export const SET_ON_SEARCH = 'SET_ON_SEARCH'

@@ -1,0 +1,22 @@
+.table {
+  thead {
+    th {
+      &.th-item {
+        position: relative;
+        &:hover {
+          cursor: pointer;
+        }
+        .direction {
+          color: #17a2b8;
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
